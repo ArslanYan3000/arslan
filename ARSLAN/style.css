@@ -1,0 +1,37 @@
+body, html {
+  scroll-behavior: smooth;
+}
+
+.text {
+  padding: 50px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: antiquewhite;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  box-shadow: 21px 32px 36px -4px rgba(18, 92, 0, 0.69);
+  -webkit-box-shadow: 21px 32px 36px -4px rgba(18, 92, 0, 0.69);
+  -moz-box-shadow: 21px 32px 36px -4px rgba(18, 92, 0, 0.69);
+}
+
+body {
+  font-family: cursive;
+}
+
+h1 {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 800px;
+}
+
+a:focus {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
