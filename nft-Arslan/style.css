@@ -1,0 +1,149 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.menu {
+  gap: 32px;
+  display: flex;
+}
+
+.link {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn {
+  color: var(--SystemBlue-Light, #007AFF);
+  padding: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 33px;
+  border: 0.5px solid rgba(0, 122, 255, 0.12);
+  background: rgba(0, 122, 255, 0.12);
+}
+
+.search {
+  width: 471px;
+  padding: 16px 24px;
+  padding-left: 50px;
+  border-radius: 60px;
+  border: 1px solid var(--SystemGray-05-Light, #E5E5EA);
+  background: #FFF;
+  box-shadow: 0px 12px 24px 0px rgba(5, 16, 55, 0.04);
+  transition: all 0.4s;
+  outline: 1px solid transparent;
+  background-image: url(./Frame.png);
+  background-position: 20px;
+  background-repeat: no-repeat;
+}
+.search:focus {
+  outline: 1px solid #007AFF;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px 30px;
+}
+
+.card {
+  border-radius: 16px;
+  border: 1.5px solid #E6E6E6;
+  background: #FFF;
+}
+.card img {
+  width: 100%;
+}
+
+.box {
+  padding: 20px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+.name p {
+  color: var(--SystemGray-01-Light, #8E8E93);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+.name h3 {
+  margin-left: auto;
+}
+
+h3 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+}
+
+.bid {
+  text-align: right;
+  padding-top: 40px;
+}
+
+.user {
+  max-width: 24px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 758px) {
+  .icon {
+    display: none;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 724px) {
+  .menu {
+    display: none;
+  }
+}
+@media (max-width: 442px) {
+  .search {
+    width: 200px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=style.css.map */
